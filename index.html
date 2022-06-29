@@ -5,14 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to KMART!</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="/Styles/styles.css">
     <link rel="js" href="script.js">
 </head>
 <body>
     
     <header>
 
-        <div class="container"></div>
+        <div class="navbar-container">
+            <div class="nav-bg">
+                <div class="logo-container"><img class="logo" src="/Images/logo-placeholder-image.png"><h1>KMART</h1>
+                    <div class="navbar">
+                        <ul class="nav-buttons">
+                            <a href="#"><li>Home</li></a>
+                            <a href="#"><li>Become a Rider/Driver</li></a>
+                            <a href="#"><li>Contact Us</li></a>
+                            <a href="#"><li>Login</li></a>
+                            <a href="#"><li>Register</li></a>
+                        </ul>
+                    </div>
+                </div>    
+            </div>
+        </div>
 
 
 
@@ -23,8 +37,17 @@
 
     <main>
 
+        <div class="main-text">
+            <p>We <span>Take The</span><br>Food To You</p>
+        </div>
 
+        <form method="get" action="https://google.com" >
+                <div class="input-box">
+                    <input type="text" class="location-box" placeholder="Enter Location" required>
+                </div>
 
+                <div class="loc-btn"><button type="submit" class="btn">Track Package</button></div>
+        </form>
 
 
     </main>

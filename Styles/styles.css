@@ -1,0 +1,116 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.navbar-container{
+    height: 80px;
+    width: auto;
+}
+
+.nav-bg{
+    background-color: #fefcfc;
+    height: 80px;
+    
+}
+
+.logo-container{
+    display: block;
+}
+
+.logo-container h1{
+    padding-top: 20px;
+    float: left;
+
+}
+
+.logo-container h1:hover{
+    color: greenyellow;
+}
+
+.logo{
+    width: 90px;
+    height: 80px;
+    display: flex;
+    float: left;
+}
+
+.navbar{
+    float: right;
+    padding: 20px;
+    margin: auto;
+}
+
+.nav-buttons{
+    color: black;
+    list-style-type: none;
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+}
+
+.nav-buttons a{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.nav-buttons a:hover{
+    color: rgb(156, 232, 43);
+}
+
+/* /////////////////////////////////////////    Main      ////////////////////////////////////////////////////// */
+
+main{
+    height: max-content;
+    background:linear-gradient(
+        to right,
+        rgba(0, 240, 0, 0.821) 0%,
+        rgb(17, 244, 17) 50%,
+        pink 50%,
+        pink 100%
+
+    );
+    background-size: cover;
+    }
+
+.main-text{
+    font-size: 70px;
+    padding-left: 200px;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    font-weight: bolder;
+}
+
+.main-text span{
+    font-weight:100;
+}
+
+.input-box{
+    padding-left: 200px;
+    padding-bottom: 30px;
+}
+
+.location-box{
+    text-align: center;
+    font-size: large;
+    width: 400px;
+    height: 80px;
+    border-radius: 12px;
+    border: none;
+}
+
+.loc-btn{
+    padding-left: 300px;
+    padding-bottom: 30px;
+}
+
+.btn{
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+}
